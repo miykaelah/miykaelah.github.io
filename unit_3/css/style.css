@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+	background: #000;
+	font-family: Helvetica, sans-serif;
+}
+
+hr{
+	width:200px;
+}
+
+h1,p{
+	color: #708090
+}
+
+#slogan{
+	font-style: italic;
+}

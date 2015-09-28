@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+}
+
+body{
+	font-size: 16px;
+}
+
+h1{
+	font-size: 48px
+}
+
+h2{
+	font-size: 32px
+	margin: 0 0 16px;
+}
+
+h3{
+	font-size: 16px
+	margin: 0 0 8px;
+}
+
+h4{
+	font-size: 64px;
+	text-align: center;
+}
+
+nav{
+	width: 370px;
+	margin: auto;
+	padding: 16px 0;
+}
+
+hr{
+	border: none;
+	height: 4px;
+	width: 48px;
+	margin: 0 0 32px;
+
+}
+
+p, li{
+	font-size: 16px;
+	font-family: 'Helvetica', sans-serif;
+
+}
+
+ul{
+	list-style: none;
+	margin: 0 0 32px;
+}
+
+li{
+	padding: 4px 0;
+}
+
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 16px;
+
+}
+
+img{
+	margin: auto;
+}
+
+footer{
+	padding: 80px 0;
+}

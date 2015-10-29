@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+	font-family: century, serif;
+	font-size: 16px;
+	background-color: #85B092;
+	}
+
+h1{
+	font-size: 4em;
+	padding: .25em;
+}
+
+nav{
+	background-color: #7a4f6d;
+	font-family: "century gothic", sans-serif;
+	text-transform: uppercase;
+	padding: .75em;
+	text-align: center;
+
+}
+
+a{
+	padding: .5em;
+	color: #1B231D;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#C2D8C8;
+}
+
+
+footer{ 
+	margin-right: 3em;
+	text-align: right;
+	color: #1B231D;
+	font-family: "century gothic", sans-serif;
+	font-weight: 400;
+	text-decoration: none; 
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+#masthead{
+	background-color: #85B092;
+	color: #1B231D;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "century gothic", sans-serif;
+	padding: 1.5em;
+}
+
+#hero{
+	display: block;
+	margin: 1.5em auto;
+	width: 90%;
+}
+
+/*
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+	height: 0;
+*/
+}
+
+
+/*#address{
+	float:left;
+	width: 50%;
+	font-family: "century", serif;
+	text-decoration: none;
+	font-size: .75em;
+	padding: 1em;
+	line-height: 1.5em;
+	background-color: green;
+}*/
+
+
+
+	@media screen and (max-width: 768px) {
+
+		body{
+			font-size: 14px;
+		}
+
+
+	}
+
+	@media screen and (max-width: 320px) {
+		body{
+			font-size: 14px;
+		}
+
+		}
+
+
+	}

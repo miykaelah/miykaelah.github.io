@@ -7,8 +7,12 @@ body{
 	}
 
 h1{
-	font-size: 4em;
-	padding: .25em;
+	font-size: 3.5em;
+	padding: .15em;
+}
+
+h4{
+	font-size: .75em;
 }
 
 nav{
@@ -32,7 +36,6 @@ a:hover{
 
 
 footer{ 
-	margin-right: 3em;
 	text-align: right;
 	color: #1B231D;
 	font-family: "century gothic", sans-serif;
@@ -40,6 +43,20 @@ footer{
 	text-decoration: none; 
 	text-transform: uppercase;
 	font-size: 1em;
+	padding: .25em;
+}
+
+.menu{
+	float: left;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+	height: 0;
+
 }
 
 #masthead{
@@ -48,22 +65,20 @@ footer{
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "century gothic", sans-serif;
-	padding: 1.5em;
+	padding: 1em;
+	/*border-radius: 25%;
+	width: 45%;*/
+}
+
+#topnav{
+	width: 750px;
+	margin: 0 auto;
 }
 
 #hero{
 	display: block;
-	margin: 1.5em auto;
-	width: 90%;
-}
+	width: 100%;
 
-/*
-.clearfix:after {
-	display: block;
-	clear: both;
-	content: "";
-	height: 0;
-*/
 }
 
 
@@ -80,21 +95,36 @@ footer{
 
 
 
-	@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
+	h1{
+		font-size: 2.5em;
+	}
+
+	h4{
+		font-size: .75em;
+	}
+	.menu{
+		font-size: 12px;
+	}	
+
+	.footnotes{
+		font-size: .75em;
+	}
+	#topnav{
+		width: 550px;
+	}
+
+	
+
+	}
+
+@media screen and (max-width: 320px) {
 		body{
 			font-size: 14px;
 		}
 
-
-	}
-
-	@media screen and (max-width: 320px) {
-		body{
-			font-size: 14px;
-		}
-
 		}
 
 
-	}
+	

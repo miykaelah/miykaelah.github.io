@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:700);
+
+body{
+	font-size: 10px;
+}
+
+header{
+/*	position: relative;
+	/*top:50%;*/*/
+	transform:translateY(-50%);
+	padding:40em;
+  	margin:auto;
+}
+
+h1{
+	font-family: "Cabin Sketch", cursive;
+	font-size: 10em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2{
+	font-size: 5em;
+	text-align: center;
+}
+
+
+
+/*------------------------------------------ LANDING ID's */
+#landing{
+	background: url("images/hero.jpg") no-repeat center center scroll;
+	background-size: cover;
+}
+
+#arrow-down{
+	color:#BF009D;
+	font-size: 4em;
+	position: absolute;
+	bottom:.25em;
+	left:50%;
+	transform:translateX(-50%);
+}

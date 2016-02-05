@@ -128,6 +128,27 @@ aside {
 
 }
 
+#purchase-2{
+    background-color:#708090;
+    opacity: .75;
+}
+
+#get-involved-2{
+    background-color:#708090;
+    opacity: .75;
+
+}
+
+#compost-2{
+    background-color:#708090;
+    opacity: .75;
+}
+
+#green-infra-2{
+    background-color:#708090;
+    opacity: .75;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
@@ -225,6 +246,62 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     background-image: url(../img/dirt-ubv.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#purchase{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/buy.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#get-involved{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/volunteer.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#compost{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/compost.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }
+
+#green-infra{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/gn-infra.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;

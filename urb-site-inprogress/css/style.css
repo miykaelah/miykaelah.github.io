@@ -41,7 +41,7 @@ h1{
 h3{
 	font-family: 'Amatic SC', cursive;
 	color: white;
-	font-size: 3em;
+	font-size: 1.5em;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -71,10 +71,14 @@ footer{
 
 #fb{
 	float: right;
+	padding-top: 0.5em;
+	padding-right: 0.25em;
+	padding-left: 0.5em;
 }
 
 #insta{
 	float: right;
+	padding-top: 0.5em;
 }
 
 
@@ -98,6 +102,19 @@ h1{
 
 }
 
+#disclaimer{
+	float: left;
+	font-size: 2em;
+}
+
+#fb{
+	float: right;
+}
+
+#insta{
+	float: right;
+}
+
 @media only screen and (min-width:1px) and (max-width:414px){
 
 body{
@@ -116,11 +133,26 @@ h1{
     margin: 1em 1em 0 .80em;
 }
 
+
+
 #subtitle{
 	font-size: 2em;
 }
 
+#disclaimer{
+	float: left;
+	font-size: 1.75em;
 }
+
+#fb{
+	float: right;
+}
+
+#insta{
+	float: right;
+}
+}
+
 
 
 

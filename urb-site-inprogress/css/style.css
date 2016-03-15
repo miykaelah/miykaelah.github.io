@@ -74,7 +74,7 @@ footer{
 }
 
 
-@media only screen and (max-width:768px){
+@media only screen and (min-width:768px){
 
 body{	
 
@@ -88,7 +88,7 @@ body{
 
 }
 
-@media only screen and (max-width:414px){
+@media only screen and (min-width:414px){
 
 body{
 	

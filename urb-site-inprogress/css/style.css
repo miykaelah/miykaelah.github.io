@@ -127,6 +127,12 @@ h3{
 	font-size: 2em;
 }
 
+
+#wrapper{
+	margin-top: 20%;
+	overflow: auto;
+}
+
 }
 
 

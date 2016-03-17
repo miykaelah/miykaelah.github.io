@@ -129,20 +129,13 @@ h1{
     
 }
 
-
-/*#fb{
-	float: right;
 }
-
-#insta{
-	float: right;
-}*/
 
 @media only screen and (min-width:1px) and (max-width:414px){
 
 body{
 	
-	background: url(../img/hero3-ubv.jpg) no-repeat center fixed;
+	background: url(../img/hero5-ubv.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -165,22 +158,8 @@ h3{
 #subtitle{
 	font-size: 2em;
 }
-/*
-#disclaimer{
-	float: left;
-	font-size: 1.75em;
-}
 
-#fb{
-	
-	display: none;
 }
-
-#insta{
-	display: none;
-}
-}*/
-
 
 
 

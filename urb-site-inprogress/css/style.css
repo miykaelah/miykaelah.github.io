@@ -18,37 +18,38 @@ body{
 
 }
 
-/*header:after {
-	display: block;
-	clear: both;
-	content: "";
-	height: 0;
-}*/
+
+header{
+	overflow: auto;
+}
 
 h1{
 	background-color: transparent;
-	font-size: 10em;
-	color: white;
-	text-align: left;
+	font-size: 9em;
+	color: black;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Amatic SC', cursive;
-	padding: 12px;
-	margin: 1% 32.5% auto;
-
+	
 }
 
 
 h3{
 	font-family: 'Amatic SC', cursive;
-	color: white;
-	font-size: 1.5em;
+	color: black;
+	font-size: 3em;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
-	padding: 10px;
-	
 }
 
+h4{
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
 footer{
 	background-color: 	rgba(232,232,232, 0.5);
@@ -59,28 +60,56 @@ footer{
 
 }
 
+a{
+	overflow: auto;
+}
+
+
+#wrapper{
+	margin-top: 35%;
+/*	border: solid red;*/
+	overflow: auto;
+}
+
+#title{
+	/*border: solid black;*/
+	
+}
+
+
+
 #subtitle{
-	word-spacing: 10px;
-	letter-spacing: 3px;
-
+	/*border: solid blue;*/
 }
 
-#disclaimer{
-	float: left;
-}
+
+
 
 #fb{
 	float: right;
-	padding-top: 0.5em;
-	padding-right: 0.25em;
-	padding-left: 0.5em;
+	display: inline-block;
+	/*border: solid green;*/
 }
 
 #insta{
 	float: right;
-	padding-top: 0.5em;
+	display: inline;
+	/*border: solid yellow;*/
+	
+	
 }
 
+#working{
+	float: right;
+	display: inline-block;
+}
+
+#insta:after { 
+ 	display: block;
+	clear: both;
+	content: "";
+	height: 0;
+}
 
 @media only screen and (min-width: 415px) and (max-width:768px){
 
@@ -96,24 +125,18 @@ body{
 
 h1{
 	padding: 0;
-    font-size: 8em;
-    margin: 10% 30% 0% 30%;;
+    font-size: 5em;
+    
 }
 
-}
 
-#disclaimer{
-	float: left;
-	font-size: 2em;
-}
-
-#fb{
+/*#fb{
 	float: right;
 }
 
 #insta{
 	float: right;
-}
+}*/
 
 @media only screen and (min-width:1px) and (max-width:414px){
 
@@ -129,8 +152,12 @@ body{
 
 h1{
 	padding: 0;
-    font-size: 6em;
+    font-size: 3em;
     margin: 1em 1em 0 .80em;
+}
+
+h3{
+	font-size: 1em;
 }
 
 
@@ -138,20 +165,21 @@ h1{
 #subtitle{
 	font-size: 2em;
 }
-
+/*
 #disclaimer{
 	float: left;
 	font-size: 1.75em;
 }
 
 #fb{
-	float: right;
+	
+	display: none;
 }
 
 #insta{
-	float: right;
+	display: none;
 }
-}
+}*/
 
 
 

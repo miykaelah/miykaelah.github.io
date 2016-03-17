@@ -51,14 +51,6 @@ h4{
 	font-weight: bold;
 }
 
-footer{
-	background-color: 	rgba(232,232,232, 0.5);
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	;
-
-}
 
 a{
 	overflow: auto;
@@ -67,36 +59,17 @@ a{
 
 #wrapper{
 	margin-top: 35%;
-/*	border: solid red;*/
 	overflow: auto;
 }
-
-#title{
-	/*border: solid black;*/
-	
-}
-
-
-
-#subtitle{
-	/*border: solid blue;*/
-}
-
-
-
 
 #fb{
 	float: right;
 	display: inline-block;
-	/*border: solid green;*/
 }
 
 #insta{
 	float: right;
 	display: inline;
-	/*border: solid yellow;*/
-	
-	
 }
 
 #working{
@@ -120,13 +93,11 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
 	background-size: cover;
-	
 	}
 
 h1{
 	padding: 0;
-    font-size: 5em;
-    
+    font-size: 5em; 
 }
 
 }
@@ -140,20 +111,17 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
 	background-size: cover;
-
 }
 
 h1{
 	padding: 0;
-    font-size: 3em;
+    font-size: 5em;
     margin: 1em 1em 0 .80em;
 }
 
 h3{
-	font-size: 1em;
+	font-size: 2em;
 }
-
-
 
 #subtitle{
 	font-size: 2em;
